@@ -53,6 +53,7 @@ struct StickMan: Shape {
         let rightFoot = CGPoint(x: hip.x + 45, y: hip.y + 90)
         p.move(to: hip); p.addLine(to: leftFoot)
         p.move(to: hip); p.addLine(to: rightFoot)
+        Text("Bobby", at: CGPoint(x: rect.midX, y: rect.maxY - 20))
 
         return p
     }
