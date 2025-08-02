@@ -15,7 +15,8 @@ struct ContentView: View {
                 .foregroundColor(.black)
 
             // Add more EmojiViews to decorate your Bobby
-            EmojiView(symbol: "", size: 0, x: 0,  y: 0)
+            EmojiView(symbol: "🎩", size: 36, x: 0,  y: -130) // Hat
+            EmojiView(symbol: "👓", size: 24, x: 0, y: -70) // Glasses
         }
         .frame(width: 200, height: 320)
     }
@@ -53,7 +54,6 @@ struct StickMan: Shape {
         let rightFoot = CGPoint(x: hip.x + 45, y: hip.y + 90)
         p.move(to: hip); p.addLine(to: leftFoot)
         p.move(to: hip); p.addLine(to: rightFoot)
-        Text("Bobby", at: CGPoint(x: rect.midX, y: rect.maxY - 20))
 
         return p
     }
