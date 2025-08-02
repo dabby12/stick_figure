@@ -21,7 +21,8 @@ struct ContentView: View {
         }
         .frame(width: 200, height: 320)
     }
-}
+}å
+// merge this with the other file to make it work
 // dont mind me here
 /// Basic stickman
 struct StickMan: Shape {
