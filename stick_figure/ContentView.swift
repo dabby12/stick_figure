@@ -20,7 +20,7 @@ struct ContentView: View {
         .frame(width: 200, height: 320)
     }
 }
-
+// dont mind me here
 /// Basic stickman
 struct StickMan: Shape {
     func path(in rect: CGRect) -> Path {
@@ -74,3 +74,4 @@ struct EmojiView: View {
 
 #Preview {
     ContentView()
+}
